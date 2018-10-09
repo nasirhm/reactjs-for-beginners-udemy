@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import newbasiccomponent from './components/new-basic-component';
+
 class App extends Component {
   componentDidMount(){
     console.log('Mounted');
@@ -28,12 +30,15 @@ class App extends Component {
       // </div>
      // <div>
      // </div>
-     <div>
-        <p style={style}>Hey World</p>
-        <div>
-          <p>{a}</p>
-        </div>
-     </div>
+    //  <div>
+    //     <p style={style}>Hey World</p>
+    //     <div>
+    //       <p>{a}</p>
+    //     </div>
+    //  </div>
+    <div>
+      
+    </div>
     );
   }
 }
